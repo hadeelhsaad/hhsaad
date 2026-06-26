@@ -32,28 +32,16 @@ hugoblox:
   # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
-    # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
-    # Optional: Mode-specific color overrides
-    colors_light: {}
-    colors_dark: {}
-    # Optional: Semantic surface color overrides
+      primary: "#DA77AC"    # Your main pink
+      secondary: "#F9B665"  # Your highlight orange
     surfaces:
-      background: ""
-      foreground: ""
-      header:
-        background: ""
-        foreground: ""
-      footer:
-        background: ""
-        foreground: ""
+      background: "#FFFFFF" # white base
+      foreground: "#000000" # black text
+  typography:
+    pack: academic
+
+
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
